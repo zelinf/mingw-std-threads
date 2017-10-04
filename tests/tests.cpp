@@ -1,8 +1,8 @@
 #undef _GLIBCXX_HAS_GTHREADS
-#include "../mingw.thread.h"
+#include "../include/mingw-std-threads/thread"
 #include <mutex>
-#include "../mingw.mutex.h"
-#include "../mingw.condition_variable.h"
+#include "../include/mingw-std-threads/mutex"
+#include "../include/mingw-std-threads/condition_variable"
 #include <atomic>
 #include <assert.h>
 
